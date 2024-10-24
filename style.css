@@ -32,3 +32,26 @@ body{
 .book .left{
     width: 20%;
 }
+
+.book .left img{
+    width: 100%;
+
+}
+
+.book .left .play{
+    position: relative;
+    left: 44%;
+    top: -25px;
+    background: #fd6565;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 0px 0px 20px #fd6565;
+    transition: .3s linear;
+    cursor: pointer;
+
+}

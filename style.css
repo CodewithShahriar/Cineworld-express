@@ -76,3 +76,18 @@ body{
     font-size: 12px;
     margin-bottom: 10px;
 }
+
+.book .right {
+    padding: 10px 40px;
+    background: unset;
+}
+
+.book .right::before{
+    position: absolute;
+    content: '';
+    width: 95%;
+    height: 250px;
+    border: 1px solid #fff;
+    background: url(./img/bg\ ar.jpg)no-repeat center -25px/cover;
+    z-index: -10px;
+}

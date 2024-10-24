@@ -28,7 +28,7 @@ body{
     width: 80%;
     position: relative;
     height: 100%;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
 }
 
 .book .left{
@@ -87,7 +87,19 @@ body{
     content: '';
     width: 95%;
     height: 250px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     background: url(./img/bg\ ar.jpg)no-repeat center -25px/cover;
     z-index: -10px;
+    border-radius: 20px;
+}
+
+.book .right::after{
+    position: absolute;
+    content: '';
+    width: 95%;
+    height: 200px;
+    /* border: 1px solid #fff; */
+    background: linear-gradient(0deg , transparent, #1f2025);
+    z-index: -10px;
+    border-radius: 20px;
 }

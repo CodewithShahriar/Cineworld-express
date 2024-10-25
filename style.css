@@ -134,3 +134,9 @@ body{
     z-index: -9;
 
 }
+
+.book .right .head_time h1{
+    color: #fff;
+    font-weight: 600;
+
+}

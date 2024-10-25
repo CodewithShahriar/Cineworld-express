@@ -100,7 +100,7 @@ body{
     height: 200px;
     top: 0;
     /* border: 1px solid #fff; */
-    background: linear-gradient(0deg , transparent, #1f2025);
+    /* background: linear-gradient(0deg , transparent, #1f2025); */
     z-index: -10px;
     border-radius: 20px;
 }
@@ -138,5 +138,33 @@ body{
 .book .right .head_time h1{
     color: #fff;
     font-weight: 600;
+    margin-left: 20px;
 
+}
+.book .right .head_time .time{
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+}
+.book .right .head_time .time h6{
+    font-size: 13px;
+    margin-right: 15px;
+}
+.book .right .head_time .time h6 i{
+    margin-right: 5px;
+}
+.book .right .head_time .time button{
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: 2px solid #fd6565;
+    color: #fff;
+    background: none;
+    font-size: 11px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .3s linear;
+}
+.book .right .head_time .time button:hover{
+    background: #fd6565;
 }

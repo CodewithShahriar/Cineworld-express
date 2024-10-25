@@ -98,8 +98,39 @@ body{
     content: '';
     width: 95%;
     height: 200px;
+    top: 0;
     /* border: 1px solid #fff; */
     background: linear-gradient(0deg , transparent, #1f2025);
     z-index: -10px;
     border-radius: 20px;
+}
+
+.book .right .head_time{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.book .right .head_time::before{
+    content:  '';
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    top: 0;
+    background: linear-gradient(90deg, transparent, #1f2025) ;
+    right: -25px;
+    z-index: -9;
+
+}
+.book .right .head_time::after{
+    content:  '';
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    top: 0;
+    background: linear-gradient(270deg, transparent, #1f2025) ;
+    left: -25px;
+    z-index: -9;
+
 }
